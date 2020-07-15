@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #fff;
+    color: #434c6d;
+}
+.menu{
+    padding: 30px 50px 70px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-vector{
+    width: 10em;
+}
+.about-us,.get-in-touch-input{
+    margin-left: 2em;
+}
+.get-in-touch-input{
+    padding: 10px;
+    border: 1px #204aff solid;
+    background-color: #fff;
+    color: #204aff;
+    border-radius: 3px;
+}
+.menu-right{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    margin-left: 2em;
+    display: none;
+}
+.hamburger-line-1,.hamburger-line-2,.hamburger-line-3{
+    width: 40px;
+    border: .5px #434c6d solid;
+}
+.hamburger-line-2,.hamburger-line-3{
+   margin-top: .5em;
+}
+.header-more-info{
+    padding: 50px;
+}
+.get-in-touch-btn-header{
+    padding: 10px 30px;
+    border: 1px #204aff solid;
+    background-color: #204aff;
+    color: #fff;
+       transform: translate(36.8%, 54%);
+}
+main{
+    
+    background-color: #fbfcff;
+}
+.more-info-desc{
+    padding: 100px 50px 140px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.solution-name-desc{
+    width: 65%;
+    font-size: .9rem;
+    margin-top: 1em;
+    line-height: 1.6;
+}
+.solution-image{
+    width: 100%;
+}
+.professional-img{
+    width: 280px;
+    height: 40vh;
+}
+.need-solution{
+    width: 200px;
+    font-size: .9rem;
+}
+.lets-talk-need{
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+.header-title{
+    width: 50%;
+}
+.header-desc{
+    width: 50%;
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-top: 1em;
+}
+.arrow-right{
+    width: 20px;
+    margin-left: .5em;
+}
+.dolutions-title-name,.lets-talk-need{
+    color: #204aff;
+    font-size: 1rem;
+}
+.profession-sale{
+    display: flex;
+    flex-direction: row;
+
+}
+.about-service-1 .ecommerce,.about-service-1 .intelligence-analytics{
+    margin-top: 2em;
+}
+.about-service-2 .design,.about-service-2 .cloud{
+    margin-top: 2em;
+}
+.about-service-1,.about-service-2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.6;
+    justify-content: space-evenly;
+}
+.desc-svg{
+    margin-bottom: 1em;
+}
+.powered-title{
+    font-size: 1.1rem;
+}
+.powered-desc{
+    font-size: .9rem;
+    line-height: 1.6;
+    margin-top: .5em;
+}
+
+
+@media only screen and (max-width: 990px){
+    .header-title{
+        width: 60%;
+    }
+    .header-desc{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 880px){
+
+    .menu-right{
+        display: none;
+    }
+    .hamburger-menu{
+        display:block;
+    }
+    .professional-img{
+    display: flex;
+    margin:auto;
+    width: 50%;
+    height: 50vh;
+    padding-bottom: 10em;
+}
+    .profession-sale{
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 670px){
+    .professional-img{
+    width: 200px;
+    height: 200px;
+    padding-bottom:5em;
+    border-radius:100%;
+}
+}
