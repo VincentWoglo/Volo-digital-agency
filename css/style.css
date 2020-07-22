@@ -180,3 +180,46 @@ main{
     border-radius:100%;
 }
 }
+@media only screen and (max-width: 600px){
+.more-info-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.solutions{
+    text-align: center;
+    font-size: 2rem;
+}
+.solution-name-desc{
+    width: 100%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.dolutions-title-name{
+    margin-bottom: 2em;
+    font-size: 1.2rem;
+}
+.need-solution{
+    width: 65vw;
+    margin-top: 2em;
+    font-size: 1.2rem;
+}
+.lets-talk-need{
+    font-size: 1.2rem;
+}
+}
+@media only screen and (max-width: 450px){
+    .get-in-touch-input{
+        display: none;
+    }
+    .logo-vector{
+        width: 150px;
+    }
+    .menu{
+        padding: 20px;
+    }
+    .hamburger-line-2,.hamburger-line-3{
+        margin: 7px 0px 0px
+    }
+}
