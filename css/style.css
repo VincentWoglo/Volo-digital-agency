@@ -16,10 +16,15 @@ body{
     justify-content: space-between;
 }
 .logo-vector{
+    cursor: pointer;
     width: 10em;
 }
 .about-us,.get-in-touch-input{
     margin-left: 2em;
+    cursor: pointer;
+}
+.projects{
+    cursor: pointer;
 }
 .get-in-touch-input{
     padding: 10px;
@@ -45,6 +50,7 @@ body{
     width: 40px;
     border: .5px #434c6d solid;
 }
+
 .hamburger-line-2,.hamburger-line-3{
    margin-top: .5em;
 }
@@ -56,7 +62,8 @@ body{
     border: 1px #204aff solid;
     background-color: #204aff;
     color: #fff;
-       transform: translate(36.8%, 54%);
+    transform: translate(36.8%, 54%);
+    cursor: pointer;
 }
 main{
     
@@ -90,6 +97,7 @@ main{
     display: flex;
     align-items: center;
     line-height: 2;
+    cursor: pointer;
 }
 .header-title{
     width: 50%;
